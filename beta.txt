@@ -24,3 +24,5 @@ Adaptador de Ethernet Ethernet 2:
 Thu Jun 12 13:57:10     2025
 Gomez Juan - IP:  - Hora: 14:09:47
 Gomez Juan - IP: 192.168.0.65 - Hora: 15:09:00
+Gomez Eduardo Gonzalo - IP:  - Hora: 14:14:10
+Gomez Eduardo Gonzalo - IP: 192.168.0.65 - Hora: 15:09:00
