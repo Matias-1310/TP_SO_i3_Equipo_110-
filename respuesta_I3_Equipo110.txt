@@ -30,3 +30,13 @@ rm temp.txt
 git add beta.txt
 git commit -m "GAMMA agrega sus datos a beta.txt"
 git push origin De-Marco
+
+G-
+git fetch origin
+git checkout ...
+ipconfig
+date
+echo"" >>
+git add .
+git commit -m ""
+git push
