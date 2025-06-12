@@ -18,11 +18,15 @@ git fetch origin
 git checkout -b gamma origin/gamma
 git pull origin gamma
 
- 
-git checkout main
-git merge gamma
+d-No, las ramas creadas no quedan actualizadas, pero sus subramas si.
 
-git add .
-git commit
+e-Mayor problemas que tuvimos fue el actualizar nuestro repositorio antes de hacer el marge
 
-git push origin main
+f- 
+ifconfig > temp.txt
+date >> temp.txt
+echo "Gomez Eduardo Gonzalo (GAMMA)" | cat - temp.txt >> beta.txt
+rm temp.txt
+git add beta.txt
+git commit -m "GAMMA agrega sus datos a beta.txt"
+git push origin De-Marco
