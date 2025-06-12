@@ -1,0 +1,28 @@
+Apellido y nombre de los alumnos que participaron de la interacción:
+- De Marco, Matías
+- Gomez, Eduardo Gonzalo 
+- Chavarri, Luis
+a- ¿Cómo queda el máster después de estos cambios?
+El máster queda con todos los cambios unificados. El archivo beta.txt contiene los aportes de los tres integrantes (nombre y apellido, ifconfig y hora). También están los archivos CPUBeta.txt, CPUAlfa.txt y CPUGamma.txt, y el archivo datos.txt con los datos correspondientes a cada uno.
+
+b- ¿Beta pudo ver todos los cambios que se realizaron?
+Sí, BETA pudo ver todos los cambios al hacer el merge de las ramas correspondientes. También verificó que en la rama main aparezcan todos los archivos y modificaciones esperadas.
+
+c- ¿Qué debió hacer (todos los comandos) en el punto 5 para poder hacer el merge?
+
+git checkout main
+git pull origin main
+
+
+git fetch origin
+git checkout -b gamma origin/gamma
+git pull origin gamma
+
+ 
+git checkout main
+git merge gamma
+
+git add .
+git commit
+
+git push origin main
